@@ -32,7 +32,72 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+#Menu {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  padding: 8pt;
+  margin: 18pt;
+  background-color: #61fbd4;
+  font-size: larger;
+}
+
+th a {
+
+  padding: 8pt 54pt;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+}
+
+th a:hover {
+  background-color: darkslategray;
+  color: white;
+}
+
+.list {
+  width: 50%;
+  height: 200pt;
+  display: inline-block;
+}
+
+dl {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  display: flexbox;
+  align-items: center;
+  justify-items: center;
+  flex-flow: column;
+  list-style: none;
+}
+
+dl caption {
+  display: inline;
+  margin: 0%;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: xx-large;
+}
+
+dt a {
+  background-color: beige;
+  margin: 5pt 18pt;
+  font-size: large;
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+
+dt a:hover {
+  background-color: rgb(88, 88, 88);
+  font-size: large;
+  text-decoration: none;
+  color: #ffffff;
 }
